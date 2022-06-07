@@ -1,6 +1,7 @@
 # Churrascometro
 <h1 align="center">Desafio do curso PROGBR</h1>
-
+<img align="center" src="./assets/to-readme/gif.gif">
+<img align="center" src="./assets/to-readme/phone.png">
 <img align="center" src="./assets/to-readme/pc.png">
 
 
