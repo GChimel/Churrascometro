@@ -13,16 +13,26 @@
 <body>
     <div>
         <h1 id="titulo">Churrascômetro</h1>
+
     </div>
     <main>
+        <div id="info-container">
+            <h2>Informe aqui algumas opções para uma melhor experiência</h2><br>
+            <h3>Os adultos bebem bebidas alcolicas?</h3>
+            <form>
+                <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Sim
+                <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Não
+            </form>
+
+        </div>
         <div class="container">
             <h2>Quantas pessoas vão participar?</h2>
-        <div>
+            <div>
             </div calss="input-container">
-                <input id="adultos" name=adultos" type="number" placeholder="Adultos">
-                <input id="criancas" name="criancas" type="number" placeholder="Crianças">
-                <input id="duracao" name="duracao" type="number" placeholder="Duração em horas">
-                <button id="botao" name="botao" onclick="calcular()">Calcular</button>
+            <input id="adultos" name=adultos" type="number" placeholder="Adultos">
+            <input id="criancas" name="criancas" type="number" placeholder="Crianças">
+            <input id="duracao" name="duracao" type="number" placeholder="Duração em horas">
+            <button id="botao" name="botao" onclick="calcular()">Calcular</button>
         </div>
         </div>
         <div id="resultado"></div>
